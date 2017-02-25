@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-download": "^0.0.1",
+    "gulp-uglify": "^2.0.1",
+    "merge2": "^1.0.3",
+    "pump": "^1.0.2"
+  }
+}

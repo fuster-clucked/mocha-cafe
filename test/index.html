@@ -1,0 +1,20 @@
+<!doctype html>
+
+<meta charset="utf-8" />
+<title> Mocha Café Example </title>
+
+<script src="../dist/mocha-cafe.min.js"> </script>
+
+<script>
+	System.go( {
+		map: {
+			'require-ls': '//cdnjs.cloudflare.com/ajax/libs/livescript/1.5.0/livescript-min.js',
+			index: 'index.js',
+			numbers: 'numbers.ls'
+		},
+		meta: {
+			'require-ls': { format: 'global' },
+			'*.ls': { loader: 'system-ls.js' }
+		}
+	} )
+</script>
